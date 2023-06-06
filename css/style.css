@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{ font-family: "Noto Sans";
+    margin: 0px;
+
+} 
+
+body {
+
+    background-color: #C5C3C6;
+  }
+
+header{ 
+     margin-right: 0;
+    background-color: #57b4fb;
+    text-align: center;
+}
+
+.titulos-principales{
+
+    padding: 30px;
+    color: rgb(4, 54, 97);
+    text-align: center;
+
+}
+.botones-header{
+
+    display: inline-block;
+    color:cornsilk
+    
+}
+
+.banner-pages{
+ 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 450px;
+}
+
+.texto-nosotros{ 
+
+    text-align:center ;
+    padding: 50px;
+}
+
+.contacto-nosotros{
+
+    padding: 30px;
+    border: #46494C solid;
+    background-color: #DCDCDD;
+}
+
+.consultas-inicio{
+
+    padding: 5px;
+    border: #46494C solid;
+    background-color: #DCDCDD;
+}
+
+.mapa-sucursal{
+
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.container{ 
+
+
+
+}
+
+.col{
+
+    
+
+}
+.caja-productos{
+
+    width: 250px;
+    background-color:#DCDCDD;
+    display: inline-block;
+    padding: 20px 10px ;
+    margin: 10px;
+    text-align: center;
+    border: #46494C solid;
+
+
+}
+.caja-productos-inicio{
+
+    width: 370px;
+    background-color:#DCDCDD;
+    display: inline-block;
+    padding: 20px 10px ;
+    margin: 10px;
+    text-align: center;
+    border: #46494C solid;
+}
+
+footer{
+
+    background-color: #57b4fb;
+    padding: 15px;
+    margin: 0px;
+}
+
