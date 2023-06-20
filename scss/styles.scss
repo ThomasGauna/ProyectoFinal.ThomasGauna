@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import 'colors.scss';
+@import 'sizes.scss';
 
 *{ font-family: "Noto Sans";
     margin: 0px;
@@ -7,26 +9,26 @@
 
 body {
 
-    background-color: #C5C3C6;
+    background-color: $color_body;
   }
 
 header{ 
      margin-right: 0;
-    background-color: #57b4fb;
+    background-color: $color_header;
     text-align: center;
 }
 
 .titulos-principales{
 
     padding: 30px;
-    color: rgb(4, 54, 97);
+    color: $color_h1;
     text-align: center;
 
 }
 .botones-header{
 
     display: inline-block;
-    color:cornsilk
+    color: $color_buttons_header;
     
 }
 
@@ -47,15 +49,15 @@ header{
 .contacto-nosotros{
 
     padding: 30px;
-    border: #46494C solid;
-    background-color: #DCDCDD;
+    border: $color_borders solid;
+    background-color: $color_forms;
 }
 
 .consultas-inicio{
 
     padding: 5px;
-    border: #46494C solid;
-    background-color: #DCDCDD;
+    border: $color_borders solid;
+    background-color: $color_forms;
 }
 
 .mapa-sucursal{
@@ -76,29 +78,29 @@ header{
 .caja-productos{
 
     width: 250px;
-    background-color:#DCDCDD;
+    background-color:$color_forms;
     display: inline-block;
     padding: 20px 10px ;
     margin: 10px;
     text-align: center;
-    border: #46494C solid;
+    border: $color_borders solid;
 
 
 }
 .caja-productos-inicio{
 
     width: 370px;
-    background-color:#DCDCDD;
+    background-color:$color_forms;
     display: inline-block;
     padding: 20px 10px ;
     margin: 10px;
     text-align: center;
-    border: #46494C solid;
+    border: $color_borders solid;
 }
 
 footer{
 
-    background-color: #57b4fb;
+    background-color: $color_header;
     padding: 15px;
     margin: 0px;
 }

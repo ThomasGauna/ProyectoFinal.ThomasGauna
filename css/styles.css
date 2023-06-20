@@ -16,13 +16,13 @@ header {
 
 .titulos-principales {
   padding: 30px;
-  color: rgb(4, 54, 97);
+  color: #043661;
   text-align: center;
 }
 
 .botones-header {
   display: inline-block;
-  color: cornsilk;
+  color: #fff8dc;
 }
 
 .banner-pages {
