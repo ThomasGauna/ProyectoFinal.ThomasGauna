@@ -9,20 +9,20 @@
 
 body {
 
-    background-color: $color_body;
+     background-color: $color_body;
   }
 
 header{ 
-     margin-right: 0;
+    
+    @include sizes-header;
     background-color: $color_header;
-    text-align: center;
 }
 
 .titulos-principales{
 
-    padding: 30px;
+    @include sizes-titulos-principales;
     color: $color_h1;
-    text-align: center;
+
 
 }
 .botones-header{
@@ -34,54 +34,47 @@ header{
 
 .banner-pages{
  
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 450px;
+    @include banner-pages-style;
+
 }
 
 .texto-nosotros{ 
 
     text-align:center ;
-    padding: 50px;
+
 }
 
 .contacto-nosotros{
 
-    padding: 30px;
+    @include sizes-contacto-nosotros;
     border: $color_borders solid;
     background-color: $color_forms;
 }
 
 .consultas-inicio{
 
-    padding: 5px;
+    @include sizes-consultas-inicio;
     border: $color_borders solid;
     background-color: $color_forms;
 }
 
 .mapa-sucursal{
 
+    @include sizes-mapa-sucursal;
     text-align: center;
-    padding: 15px;
-
 
 }
 .container{
-
-
+ 
+  text-align: center;
 
 }
 
-
-
 .caja-productos{
 
-    width: 250px;
+    @include sizes-caja-productos;
     background-color:$color_forms;
     display: inline-block;
-    padding: 20px 10px ;
-    margin: 10px;
     text-align: center;
     border: $color_borders solid;
 
@@ -89,26 +82,23 @@ header{
 }
 .caja-productos-inicio{
 
-    width: 370px;
+    @include sizes-caja-productos-inicio;
     background-color:$color_forms;
     display: inline-block;
-    padding: 20px 10px ;
-    margin: 10px;
     text-align: center;
     border: $color_borders solid;
 }
 
 footer{
-
+    
+    @include sizes-footer;
     background-color: $color_header;
-    padding: 15px;
-    margin: 0px;
+    
 }
 
 @media (min-width:600){
 
     .col{ 
-
 
 
     }

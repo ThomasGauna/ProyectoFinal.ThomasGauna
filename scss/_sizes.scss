@@ -1,0 +1,63 @@
+@mixin sizes-header{
+   
+    margin: 0;
+    text-align: center;
+
+}
+
+@mixin banner-pages-style{
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 450px;
+
+}
+
+@mixin sizes-titulos-principales{
+    
+    padding: 30px;
+    text-align: center;
+    
+}
+
+@mixin sizes-contacto-nosotros{
+
+    padding: 30px;
+
+}
+
+@mixin sizes-consultas-inicio{
+
+    padding: 5px;
+
+}
+
+@mixin sizes-mapa-sucursal{
+
+    padding: 15px;
+
+}
+
+@mixin sizes-caja-productos{
+
+    width: 250px;
+    padding: 20px 10px ;
+    margin: 10px;
+
+}
+
+@mixin sizes-caja-productos-inicio{
+
+    width: 370px;
+    padding: 20px 10px;
+    margin: 10px;
+
+}
+
+@mixin sizes-footer{
+
+    padding: 15px;
+    margin: 0px;
+
+}
