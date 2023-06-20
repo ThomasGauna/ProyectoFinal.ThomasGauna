@@ -23,8 +23,8 @@ header{
     @include sizes-titulos-principales;
     color: $color_h1;
 
-
 }
+
 .botones-header{
 
     display: inline-block;
@@ -64,6 +64,7 @@ header{
     text-align: center;
 
 }
+
 .container{
  
   text-align: center;
@@ -80,6 +81,7 @@ header{
 
 
 }
+
 .caja-productos-inicio{
 
     @include sizes-caja-productos-inicio;
@@ -100,6 +102,7 @@ footer{
 
     .col{ 
 
+        padding: 10px;
 
     }
 

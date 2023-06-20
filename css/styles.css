@@ -83,4 +83,10 @@ footer {
   background-color: #57b4fb;
 }
 
+@media (min-width: 600) {
+  .col {
+    padding: 10px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
