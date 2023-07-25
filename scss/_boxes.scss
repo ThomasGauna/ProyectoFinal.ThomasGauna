@@ -1,0 +1,64 @@
+header{ 
+    
+    @include sizes-header;
+    text-align: center;
+    background-color: $color_header;
+}
+
+body {
+
+    background-color: $color_body;
+ }
+
+.container{
+ 
+    text-align: center;
+
+}
+
+.caja-productos-inicio{
+
+    @include sizes-caja-productos-inicio;
+    background-color:$color_forms;
+    display: inline-block;
+    text-align: center;
+    border: $color_borders solid;
+}
+
+.caja-productos{
+
+    @include sizes-caja-productos;
+    background-color:$color_forms;
+    display: inline-block;
+    align-content: center;
+    border: $color_borders solid;
+
+}
+
+.contacto-nosotros{
+
+    @include sizes-contacto-nosotros;
+    border: $color_borders solid;
+    background-color: $color_forms;
+}
+
+.consultas-inicio{
+
+    @include sizes-consultas-inicio;
+    border: $color_borders solid;
+    background-color: $color_forms;
+}
+
+.mapa-sucursal{
+
+    @include sizes-mapa-sucursal;
+    text-align: center;
+
+}
+
+footer{
+    
+    @include sizes-footer;
+    background-color: $color_header;
+    
+}

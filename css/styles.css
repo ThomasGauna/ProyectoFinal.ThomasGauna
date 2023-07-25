@@ -1,23 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+.banner-pages {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 450px;
+}
+
+@media (min-width: 600) {
+  .col {
+    padding: 10px;
+  }
+}
 * {
   font-family: "Noto Sans";
   margin: 0px;
-}
-
-body {
-  background-color: #C5C3C6;
-}
-
-header {
-  margin: 0;
-  text-align: center;
-  background-color: #57b4fb;
 }
 
 .titulos-principales {
   padding: 30px;
   text-align: center;
   color: #043661;
+}
+
+.texto-nosotros {
+  text-align: center;
 }
 
 .animation-h1 {
@@ -27,18 +33,40 @@ header {
 
 .botones-header {
   display: inline-block;
-  color: #fff8dc;
 }
 
-.banner-pages {
-  width: 100%;
+header {
   margin: 0;
-  padding: 0;
-  height: 450px;
+  text-align: center;
+  background-color: #57b4fb;
 }
 
-.texto-nosotros {
+body {
+  background-color: #C5C3C6;
+}
+
+.container {
   text-align: center;
+}
+
+.caja-productos-inicio {
+  width: 370px;
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: #DCDCDD;
+  display: inline-block;
+  text-align: center;
+  border: #46494C solid;
+}
+
+.caja-productos {
+  width: 250px;
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: #DCDCDD;
+  display: inline-block;
+  align-content: center;
+  border: #46494C solid;
 }
 
 .contacto-nosotros {
@@ -58,40 +86,10 @@ header {
   text-align: center;
 }
 
-.container {
-  text-align: center;
-}
-
-.caja-productos {
-  width: 250px;
-  padding: 20px 10px;
-  margin: 10px;
-  background-color: #DCDCDD;
-  display: inline-block;
-  text-align: center;
-  border: #46494C solid;
-}
-
-.caja-productos-inicio {
-  width: 370px;
-  padding: 20px 10px;
-  margin: 10px;
-  background-color: #DCDCDD;
-  display: inline-block;
-  text-align: center;
-  border: #46494C solid;
-}
-
 footer {
   padding: 15px;
   margin: 0px;
   background-color: #57b4fb;
-}
-
-@media (min-width: 600) {
-  .col {
-    padding: 10px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

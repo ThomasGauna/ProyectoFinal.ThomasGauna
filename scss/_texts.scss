@@ -1,0 +1,18 @@
+*{ font-family: "Noto Sans";
+    margin: 0px;
+
+} 
+
+.titulos-principales{
+
+    @include sizes-titulos-principales;
+    text-align: center;
+    color: $color_h1;
+
+}
+
+.texto-nosotros{ 
+
+    text-align:center ;
+
+}
